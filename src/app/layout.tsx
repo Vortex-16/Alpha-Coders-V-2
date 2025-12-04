@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/theme-provider';
 import Header from '@/components/header';
 import { Inter } from 'next/font/google';
+import Stars from '@/components/stars';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -26,7 +27,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen w-full flex-col bg-grid">
+          <Stars />
+          <div className="flex min-h-screen w-full flex-col">
             <Header />
             <main className="flex-1 pt-24">{children}</main>
           </div>
