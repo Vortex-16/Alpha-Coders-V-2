@@ -1,75 +1,135 @@
 {
   "placeholderImages": [
     {
-      "id": "avatar1",
-      "description": "Vortex-16 avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "profile portrait"
-    },
-    {
-      "id": "avatar2",
+      "id": "avatar_dealer-09",
       "description": "Dealer-09 avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1489514427794-bb4f67f45c7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://github.com/Dealer-09.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar3",
-      "description": "Rouvik avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "profile portrait"
-    },
-    {
-      "id": "avatar4",
+      "id": "avatar_pixelpioneer404",
       "description": "PixelPioneer404 avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1509768368676-f3c3b060679d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://github.com/PixelPioneer404.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar5",
-      "description": "Alice avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1669475535925-a011d7c31d45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmlsZSUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDgzMjM2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_rouvik",
+      "description": "Rouvik avatar",
+      "imageUrl": "https://github.com/Rouvik.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar6",
-      "description": "Bob avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_vortex-16",
+      "description": "Vortex-16 avatar",
+      "imageUrl": "https://github.com/Vortex-16.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar7",
-      "description": "Charlie avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_2b-adrix",
+      "description": "2b-adrix avatar",
+      "imageUrl": "https://github.com/2b-adrix.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar8",
-      "description": "Diana avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1509768368676-f3c3b060679d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_ayanalikhan11",
+      "description": "AyanAlikhan11 avatar",
+      "imageUrl": "https://github.com/AyanAlikhan11.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar9",
-      "description": "Ethan avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_ayushchowdhurycse",
+      "description": "AyushChowdhuryCSE avatar",
+      "imageUrl": "https://github.com/AyushChowdhuryCSE.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar10",
-      "description": "Fiona avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1539125530496-3ca408f9c2d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_dakiyaanoosi",
+      "description": "dakiyaanoosi avatar",
+      "imageUrl": "https://github.com/dakiyaanoosi.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar11",
-      "description": "George avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_debugzero0",
+      "description": "DebugZero0 avatar",
+      "imageUrl": "https://github.com/DebugZero0.png",
       "imageHint": "profile portrait"
     },
     {
-      "id": "avatar12",
-      "description": "Hannah avatar",
-      "imageUrl": "https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODMyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "id": "avatar_jeet-pathak",
+      "description": "Jeet-Pathak avatar",
+      "imageUrl": "https://github.com/Jeet-Pathak.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_luckym-crypto",
+      "description": "luckym-crypto avatar",
+      "imageUrl": "https://github.com/luckym-crypto.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_priyabratasur",
+      "description": "PriyabrataSur avatar",
+      "imageUrl": "https://github.com/PriyabrataSur.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_priyanshu2004-hub",
+      "description": "priyanshu2004-hub avatar",
+      "imageUrl": "https://github.com/priyanshu2004-hub.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_rezero404",
+      "description": "reZero404 avatar",
+      "imageUrl": "https://github.com/reZero404.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_rupampramanik05",
+      "description": "rupampramanik05 avatar",
+      "imageUrl": "https://github.com/rupampramanik05.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_shobha03101981-prog",
+      "description": "shobha03101981-prog avatar",
+      "imageUrl": "https://github.com/shobha03101981-prog.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_sritamsarkar-2028",
+      "description": "Sritamsarkar-2028 avatar",
+      "imageUrl": "https://github.com/Sritamsarkar-2028.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_srinjoyeedey",
+      "description": "SrinjoyeeDey avatar",
+      "imageUrl": "https://github.com/SrinjoyeeDey.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_sunny-source",
+      "description": "sunny-source avatar",
+      "imageUrl": "https://github.com/sunny-source.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_superiordevelop",
+      "description": "SuperiorDevelop avatar",
+      "imageUrl": "https://github.com/SuperiorDevelop.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_yourajdeep",
+      "description": "yourajdeep avatar",
+      "imageUrl": "https://github.com/yourajdeep.png",
+      "imageHint": "profile portrait"
+    },
+    {
+      "id": "avatar_zin-web",
+      "description": "zin-web avatar",
+      "imageUrl": "https://github.com/zin-web.png",
       "imageHint": "profile portrait"
     }
   ]

@@ -1,21 +1,31 @@
 import type { TeamMember, CommunityMember, Project } from '@/types';
 
 export const coreTeam: TeamMember[] = [
-  { id: 1, name: 'Vortex-16', username: 'vortex16', avatar: 'avatar1', role: 'Lead Developer' },
-  { id: 2, name: 'Dealer-09', username: 'dealer09', avatar: 'avatar2', role: 'Project Manager' },
-  { id: 3, name: 'Rouvik', username: 'rouvik', avatar: 'avatar3', role: 'UI/UX Designer' },
-  { id: 4, name: 'PixelPioneer404', username: 'pixelpioneer', avatar: 'avatar4', role: 'Frontend Specialist' },
+  { id: 1, name: 'Archis', username: 'Dealer-09', avatar: 'avatar_dealer-09', role: 'Owner' },
+  { id: 2, name: 'Rajbeer Saha', username: 'PixelPioneer404', avatar: 'avatar_pixelpioneer404', role: 'Owner' },
+  { id: 3, name: 'Rouvik Maji', username: 'Rouvik', avatar: 'avatar_rouvik', role: 'Owner' },
+  { id: 4, name: 'Vikash Gupta', username: 'Vortex-16', avatar: 'avatar_vortex-16', role: 'Owner' },
 ];
 
 export const communityMembers: CommunityMember[] = [
-    { id: 5, name: 'Alice', username: 'alice_c', avatar: 'avatar5' },
-    { id: 6, name: 'Bob', username: 'bob_dev', avatar: 'avatar6' },
-    { id: 7, name: 'Charlie', username: 'charlie_js', avatar: 'avatar7' },
-    { id: 8, name: 'Diana', username: 'diana_py', avatar: 'avatar8' },
-    { id: 9, name: 'Ethan', username: 'ethan_ux', avatar: 'avatar9' },
-    { id: 10, name: 'Fiona', username: 'fiona_go', avatar: 'avatar10' },
-    { id: 11, name: 'George', username: 'george_rs', avatar: 'avatar11' },
-    { id: 12, name: 'Hannah', username: 'hannah_ts', avatar: 'avatar12' },
+    { id: 5, name: 'Aditya Mishra', username: '2b-adrix', avatar: 'avatar_2b-adrix' },
+    { id: 6, name: 'AYAN ALI KHAN', username: 'AyanAlikhan11', avatar: 'avatar_ayanalikhan11' },
+    { id: 7, name: 'Ayush Chowdhury', username: 'AyushChowdhuryCSE', avatar: 'avatar_ayushchowdhurycse' },
+    { id: 8, name: 'Avinish Kumar Tripathi', username: 'dakiyaanoosi', avatar: 'avatar_dakiyaanoosi' },
+    { id: 9, name: 'Ankan Nandi', username: 'DebugZero0', avatar: 'avatar_debugzero0' },
+    { id: 10, name: 'Jeet-Pathak', username: 'Jeet-Pathak', avatar: 'avatar_jeet-pathak' },
+    { id: 11, name: 'luckym-crypto', username: 'luckym-crypto', avatar: 'avatar_luckym-crypto' },
+    { id: 12, name: 'Code_with_Priyabrata', username: 'PriyabrataSur', avatar: 'avatar_priyabratasur' },
+    { id: 13, name: 'priyanshu2004-hub', username: 'priyanshu2004-hub', avatar: 'avatar_priyanshu2004-hub' },
+    { id: 14, name: 'Debjit Halder', username: 'reZero404', avatar: 'avatar_rezero404' },
+    { id: 15, name: 'rupampramanik05', username: 'rupampramanik05', avatar: 'avatar_rupampramanik05' },
+    { id: 16, name: 'shobha03101981-prog', username: 'shobha03101981-prog', avatar: 'avatar_shobha03101981-prog' },
+    { id: 17, name: 'Sritamsarkar-2028', username: 'Sritamsarkar-2028', avatar: 'avatar_sritamsarkar-2028' },
+    { id: 18, name: 'Srinjoyee_Dey', username: 'SrinjoyeeDey', avatar: 'avatar_srinjoyeedey' },
+    { id: 19, name: 'sunny kumar', username: 'sunny-source', avatar: 'avatar_sunny-source' },
+    { id: 20, name: 'SuperiorDevelop', username: 'SuperiorDevelop', avatar: 'avatar_superiordevelop' },
+    { id: 21, name: 'Rajdeep Das', username: 'yourajdeep', avatar: 'avatar_yourajdeep' },
+    { id: 22, name: 'zin-web', username: 'zin-web', avatar: 'avatar_zin-web' },
 ];
 
 export const projects: Project[] = [
