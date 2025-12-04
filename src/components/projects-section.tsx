@@ -1,25 +1,44 @@
 "use client";
 
-import { useState, useMemo } from 'react';
-import { projects } from '@/lib/data';
+import { useState, useMemo, useEffect } from 'react';
+import type { GithubProject } from '@/types';
 import { ProjectCard } from '@/components/project-card';
 import { Button } from '@/components/ui/button';
-import { FolderKanban } from 'lucide-react';
+import { FolderKanban, Star } from 'lucide-react';
 
 export default function ProjectsSection() {
+  const [projects, setProjects] = useState<GithubProject[]>([]);
   const [filter, setFilter] = useState('All');
   
-  const technologies = useMemo(() => {
-    const allTechs = projects.flatMap(p => p.technologies);
-    return ['All', ...Array.from(new Set(allTechs))];
+  useEffect(() => {
+    async function fetchProjects() {
+      try {
+        const response = await fetch('https://api.github.com/orgs/Alpha4Coders/repos?sort=updated&direction=desc');
+        if (response.ok) {
+          const data = await response.json();
+          setProjects(data);
+        } else {
+          console.error('Failed to fetch projects from GitHub');
+        }
+      } catch (error) {
+        console.error('Error fetching projects:', error);
+      }
+    }
+    fetchProjects();
   }, []);
+
+  const technologies = useMemo(() => {
+    if (projects.length === 0) return ['All'];
+    const allTechs = projects.map(p => p.language).filter(Boolean); // Filter out null/undefined languages
+    return ['All', ...Array.from(new Set(allTechs as string[]))];
+  }, [projects]);
 
   const filteredProjects = useMemo(() => {
     if (filter === 'All') {
       return projects;
     }
-    return projects.filter(p => p.technologies.includes(filter));
-  }, [filter]);
+    return projects.filter(p => p.language === filter);
+  }, [filter, projects]);
 
   return (
     <section>

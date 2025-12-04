@@ -20,3 +20,12 @@ export interface Project {
   url: string;
   technologies: string[];
 }
+
+export interface GithubProject {
+  id: number;
+  name: string;
+  description: string;
+  html_url: string;
+  language: string | null;
+  stargazers_count: number;
+}
