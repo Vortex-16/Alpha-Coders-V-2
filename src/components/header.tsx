@@ -27,13 +27,13 @@ export default function Header() {
 
   return (
     <div className="fixed top-4 inset-x-0 max-w-2xl mx-auto z-50 px-4">
-      <header className="relative flex items-center justify-between p-2 rounded-2xl bg-background/60 backdrop-blur-md border border-border/40 shadow-lg">
+      <header className="relative flex items-center justify-between p-2 rounded-full bg-background/60 backdrop-blur-md border border-border/40 shadow-lg">
         <Link href="/" className="flex items-center gap-2 pl-2">
           <CodeXml className="h-6 w-6 text-primary" />
           <span className="font-bold text-lg hidden sm:inline-block">Alpha Coders</span>
         </Link>
         
-        <nav className="items-center space-x-1 hidden md:flex bg-secondary/50 rounded-lg p-1">
+        <nav className="items-center space-x-1 hidden md:flex bg-secondary/50 rounded-full p-1">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -47,7 +47,7 @@ export default function Header() {
               {pathname === link.href && (
                 <MotionDiv
                   layoutId="active-nav-link"
-                  className="absolute inset-0 bg-background rounded-md z-[-1]"
+                  className="absolute inset-0 bg-background rounded-full z-[-1]"
                   transition={{ type: 'spring', stiffness: 350, damping: 30 }}
                 />
               )}
