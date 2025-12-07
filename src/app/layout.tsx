@@ -32,8 +32,8 @@ export default function RootLayout({
         >
           <Stars />
           <div className="flex min-h-screen w-full flex-col">
-            <Header />
-            <main className="flex-1 pt-24">{children}</main>
+            {/* Header removed in favor of Dock */}
+            <main className="flex-1">{children}</main>
           </div>
           <Toaster />
         </ThemeProvider>
