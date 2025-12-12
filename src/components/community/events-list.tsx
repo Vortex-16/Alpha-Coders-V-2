@@ -12,11 +12,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const events = [
     {
-        title: "Tech Sprint",
-        date: "Dec 8 - 25, 2025 • Ongoing",
-        location: "GDG on Campus STCET Kolkata",
-        desc: "For STCET students (1st-4th year). Use at least one Google tech (API, Firebase, etc.). Vibe coding allowed! Top 10 qualify for Round 2 with surprise rewards from Google.",
-        link: "https://vision.hack2skill.com/event/gdgoc-25-techsprint-stcetkolkata"
+        title: "AlphaHacks",
+        date: "Dec 15, 2025 • 12 Hrs",
+        location: "Vibe Coding Hackathon",
+        desc: "A 12-hour intense coding marathon. Build, vibe, and ship.",
+        link: "#"
     },
     {
         title: "Learning Resources",
