@@ -12,6 +12,7 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import GsapMagnetic from '@/components/gsap-magnetic';
 import dynamic from 'next/dynamic';
+import EventPopup from '@/components/event-popup';
 
 const FluidBackground = dynamic(() => import('@/components/three/fluid-background'), { ssr: false });
 const Dock = dynamic(() => import('@/components/ui/mac-dock').then(mod => mod.Dock), { ssr: false });
@@ -93,6 +94,7 @@ export default function Home() {
   return (
     <div ref={container} className="flex flex-col overflow-hidden min-h-screen">
       <FluidBackground />
+      <EventPopup />
       <Dock />
 
       <section className="w-full py-20 md:py-32 lg:py-40 relative z-10">
