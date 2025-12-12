@@ -53,7 +53,7 @@ export default function CommunityPage() {
 
         <div className="container relative z-10 px-4 md:px-6 text-center">
           <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-neutral-200 dark:border-white/20 bg-white/50 dark:bg-white/10 backdrop-blur-md text-sm font-medium text-neutral-700 dark:text-white shadow-lg community-hero-badge">
-            The Hub for 45+ Developers
+            The Hub for 100+ Developers
           </div>
           <h1 className="community-hero-title text-5xl md:text-7xl font-bold tracking-tighter text-neutral-900 dark:text-white drop-shadow-2xl mb-6">
             India's Next Gen<br />Coders
@@ -131,7 +131,7 @@ export default function CommunityPage() {
         <div className="container relative mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-6 text-neutral-900 dark:text-white">Ready to make an impact?</h2>
           <p className="text-xl text-neutral-600 dark:text-emerald-200/60 mb-8 max-w-2xl mx-auto">
-            Join 45+ other developers in the community.
+            Join 100+ other developers in the community.
           </p>
           <GsapMagnetic>
             <div className="inline-block">

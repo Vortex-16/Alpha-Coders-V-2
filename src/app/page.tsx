@@ -124,7 +124,7 @@ export default function Home() {
             </div>
 
             <p className="hero-text text-lg text-neutral-600 dark:text-emerald-100/80 md:text-xl max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-              A tight-knit community of 45+ passionate developers from India. We are the next generation of open-source contributors.
+              A tight-knit community of 100+ passionate developers from India. We are the next generation of open-source contributors.
             </p>
 
             <div className="hero-buttons flex flex-col sm:flex-row gap-4 justify-center mt-10 items-center">
@@ -132,7 +132,7 @@ export default function Home() {
                 <div className="inline-block">
                   <Button asChild size="xl" className="h-14 px-8 text-lg rounded-full shadow-lg hover:shadow-emerald-500/50 transition-all bg-white text-black hover:bg-gray-100 border-none">
                     <Link href="https://github.com/Alpha4Coders" target="_blank" rel="noopener noreferrer">
-                      Join the 45
+                      Join the 100
                     </Link>
                   </Button>
                 </div>
@@ -198,14 +198,14 @@ export default function Home() {
       <section className="py-24 md:py-32 relative z-10">
         <div className="container mx-auto px-4 md:px-6 text-center">
           <div className="mx-auto max-w-3xl space-y-8">
-            <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl text-neutral-900 dark:text-white">Ready to be #46?</h2>
+            <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl text-neutral-900 dark:text-white">Ready to Join Us?</h2>
             <p className="mx-auto max-w-2xl text-neutral-600 dark:text-emerald-200/60 text-lg md:text-xl">
               We are looking for the next core member to join our journey.
             </p>
             <GsapMagnetic>
               <div className="inline-block mt-4">
                 <Button asChild size="xl" className="h-16 px-10 text-xl rounded-full shadow-2xl hover:shadow-emerald-500/50 transition-all duration-500 bg-white text-black hover:bg-gray-200">
-                  <Link href="https://github.com/Alpha4Coders" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://discord.gg/5p4wkAykV" target="_blank" rel="noopener noreferrer">
                     Join Our Discord
                     <ArrowRight className="ml-3 h-6 w-6" />
                   </Link>

@@ -8,8 +8,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
-    { label: "Founding Members", value: 45, suffix: "+" },
-    { label: "Based in", value: 0, text: "India", suffix: "" },
+    { label: "Community Members", value: 100, suffix: "+" },
+    { label: "GitHub Members", value: 25, suffix: "+" },
     { label: "Lines of Code", value: 50000, suffix: "+" },
     { label: "Projects", value: 20, suffix: "+" },
 ];
@@ -30,13 +30,6 @@ export default function StatsSection() {
         });
 
         stats.forEach((stat, i) => {
-            // Skip numeric animation for "Based in" which is text
-            if (stat.text) {
-                const el = document.getElementById(`stat-${i}`);
-                if (el) el.innerText = stat.text;
-                return;
-            }
-
             const counter = { val: 0 };
             gsap.to(counter, {
                 val: stat.value,
@@ -61,8 +54,7 @@ export default function StatsSection() {
             {stats.map((stat, i) => (
                 <div key={i} className="stat-item text-center space-y-2">
                     <div id={`stat-${i}`} className="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-white tracking-tight flex justify-center items-center gap-2">
-                        {/* Render Icon if available (for India flag) */}
-                        {stat.text ? stat.text : "0"}
+                        0
                     </div>
                     <div className="text-sm font-medium text-neutral-500 dark:text-emerald-200/60 uppercase tracking-widest">
                         {stat.label}
