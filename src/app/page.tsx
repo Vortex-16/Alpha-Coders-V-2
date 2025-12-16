@@ -124,7 +124,7 @@ export default function Home() {
             </div>
 
             <p className="hero-text text-lg text-neutral-600 dark:text-emerald-100/80 md:text-xl max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-              A tight-knit community of 100+ passionate developers from India. We are the next generation of open-source contributors.
+              A tight-knit community of 200+ passionate developers from India. We are the next generation of open-source contributors.
             </p>
 
             <div className="hero-buttons flex flex-col sm:flex-row gap-4 justify-center mt-10 items-center">
@@ -132,7 +132,7 @@ export default function Home() {
                 <div className="inline-block">
                   <Button asChild size="xl" className="h-14 px-8 text-lg rounded-full shadow-lg hover:shadow-emerald-500/50 transition-all bg-white text-black hover:bg-gray-100 border-none">
                     <Link href="https://github.com/Alpha4Coders" target="_blank" rel="noopener noreferrer">
-                      Join the 100
+                      Join the 200
                     </Link>
                   </Button>
                 </div>
