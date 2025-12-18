@@ -6,6 +6,7 @@ import { useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Zap, BrainCircuit, Users } from 'lucide-react';
 import ProjectsSection from '@/components/projects-section';
+import TeamSection from '@/components/team-section';
 import './custom-styles.css';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -191,6 +192,25 @@ export default function Home() {
           {/* Wrapping ProjectsSection to ensure it participates in our layout but it manages its own internal implementation */}
           <div className="reveal-section">
             <ProjectsSection />
+          </div>
+        </div>
+      </section>
+
+      <section id="team" className="py-24 md:py-32 relative z-10">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="reveal-section">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-neutral-900 dark:text-white">Meet Our Leaders</h2>
+              <p className="mx-auto max-w-[700px] text-neutral-600 dark:text-emerald-200/60 md:text-xl/relaxed mt-4">
+                The core team driving innovation and community at Alpha Coders.
+              </p>
+            </div>
+            <TeamSection />
+            <div className="flex justify-center mt-12">
+              <Button asChild variant="outline" className="rounded-full px-8">
+                <Link href="/team">View Foundation Details</Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

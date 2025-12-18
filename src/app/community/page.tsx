@@ -93,15 +93,10 @@ export default function CommunityPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
 
           {/* Left Column: Showcase */}
-          <div className="lg:col-span-2 space-y-12">
-            <div className="flex justify-between items-end mb-8">
-              <div>
-                <h2 className="text-3xl font-bold tracking-tight mb-2 text-neutral-900 dark:text-white">Core Team & Members</h2>
-                <p className="text-neutral-500 dark:text-emerald-200/60">Highlighted projects built by our Founding Members.</p>
-              </div>
-              <Button variant="ghost" className="text-emerald-600 dark:text-emerald-300 hover:text-emerald-800 dark:hover:text-emerald-200">
-                View All <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+          <div className="lg:col-span-2 space-y-8">
+            <div className="mb-4">
+              <h2 className="text-3xl font-bold tracking-tight mb-2 text-neutral-900 dark:text-white">Our Community</h2>
+              <p className="text-neutral-500 dark:text-neutral-400">Meet the passionate developers building the future.</p>
             </div>
             <ShowcaseGrid />
           </div>
