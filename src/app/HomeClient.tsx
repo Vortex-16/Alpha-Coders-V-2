@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Zap, BrainCircuit, Users } from 'lucide-react';
 import ProjectsSection from '@/components/projects-section';
 import TeamSection from '@/components/team-section';
-import '../custom-styles.css';
+import './custom-styles.css';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
