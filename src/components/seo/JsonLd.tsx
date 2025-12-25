@@ -9,7 +9,7 @@ const JsonLd = () => {
         logo: 'https://alphacodres.vercel.app/AlphaCoders.png',
         sameAs: [
             'https://github.com/Alpha4Coders',
-            'https://discord.gg/5p4wkAykV',
+            'https://discord.gg/VnQubyhUwh',
             'https://x.com/Alpha4Coders',
             'https://www.instagram.com/alpha.coder.s/',
             'https://www.linkedin.com/company/alpha4coders',

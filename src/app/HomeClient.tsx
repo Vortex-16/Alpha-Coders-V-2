@@ -106,6 +106,7 @@ export default function HomeClient() {
                             <Image
                                 src="/AlphaCoders.png"
                                 alt="Alpha Coders Logo"
+                                title="Alpha Coders - India's Next Gen Coders Community"
                                 width={140}
                                 height={140}
                                 className="rounded-2xl shadow-2xl relative z-10 glass-card"
@@ -226,7 +227,7 @@ export default function HomeClient() {
                         <GsapMagnetic>
                             <div className="inline-block mt-4">
                                 <Button asChild size="xl" className="h-16 px-10 text-xl rounded-full shadow-2xl hover:shadow-emerald-500/50 transition-all duration-500 bg-white text-black hover:bg-gray-200">
-                                    <Link href="https://discord.gg/5p4wkAykV" target="_blank" rel="noopener noreferrer">
+                                    <Link href="https://discord.gg/VnQubyhUwh" target="_blank" rel="noopener noreferrer">
                                         Join Our Discord
                                         <ArrowRight className="ml-3 h-6 w-6" />
                                     </Link>

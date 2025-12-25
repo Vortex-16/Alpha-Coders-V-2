@@ -133,7 +133,7 @@ export default function CommunityClient() {
                     <GsapMagnetic>
                         <div className="inline-block">
                             <Button size="xl" className="h-14 px-8 rounded-full text-lg shadow-2xl bg-neutral-900 dark:bg-white text-white dark:text-black hover:bg-neutral-800 dark:hover:bg-gray-200" asChild>
-                                <Link href="https://discord.gg/5p4wkAykV" target="_blank">
+                                <Link href="https://discord.gg/VnQubyhUwh" target="_blank">
                                     Join Discord <ArrowRight className="ml-2" />
                                 </Link>
                             </Button>
@@ -155,7 +155,7 @@ export default function CommunityClient() {
                                 <span className="sr-only">LinkedIn</span>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
                             </Link>
-                            <Link href="https://discord.gg/5p4wkAykV" target="_blank" className="text-neutral-400 hover:text-indigo-500 transition-colors">
+                            <Link href="https://discord.gg/VnQubyhUwh" target="_blank" className="text-neutral-400 hover:text-indigo-500 transition-colors">
                                 <span className="sr-only">Discord</span>
                                 <MessageSquare className="h-6 w-6" />
                             </Link>

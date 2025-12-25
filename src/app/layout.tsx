@@ -16,7 +16,7 @@ const siteConfig = {
   ogImage: 'https://alphacodres.vercel.app/og-image.png',
   links: {
     github: 'https://github.com/Alpha4Coders',
-    discord: 'https://discord.gg/5p4wkAykV',
+    discord: 'https://discord.gg/VnQubyhUwh',
   },
 };
 

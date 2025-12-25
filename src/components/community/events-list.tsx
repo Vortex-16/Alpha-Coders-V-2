@@ -23,14 +23,14 @@ const events = [
         date: "Ongoing",
         location: "Discord Community",
         desc: "Curated paths for React, Next.js, and Three.js available in our channels.",
-        link: "https://discord.gg/5p4wkAykV"
+        link: "https://discord.gg/VnQubyhUwh"
     },
     {
         title: "Open Source Sat",
         date: "Every Saturday",
         location: "Online / Discord",
         desc: "Weekly contribution jam. Pick an issue, fix it, merge it.",
-        link: "https://discord.gg/5p4wkAykV"
+        link: "https://discord.gg/VnQubyhUwh"
     }
 ];
 
